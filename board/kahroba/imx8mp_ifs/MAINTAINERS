@@ -1,0 +1,6 @@
+i.MX8MP IFS BOARD
+M:	M.H. Shokoohi <mohammadhassan.shokoohi@gmail.com>
+S:	Maintained
+F:	board/kahroba/imx8mp_ifs/
+F:	include/configs/imx8mp_ifs.h
+F:	configs/imx8mp_ifs_defconfig

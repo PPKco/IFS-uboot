@@ -1,0 +1,15 @@
+if TARGET_IMX8MP_IFS || TARGET_IMX8MP_DDR4_IFS
+
+config SYS_BOARD
+	default "imx8mp_ifs"
+
+config SYS_VENDOR
+	default "kahroba"
+
+config SYS_CONFIG_NAME
+	default "imx8mp_ifs"
+
+config IMX_CONFIG
+	default "board/kahroba/imx8mp_ifs/imximage-8mp-lpddr4.cfg"
+
+endif
